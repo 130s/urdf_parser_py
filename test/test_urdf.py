@@ -31,6 +31,7 @@ class TestURDFParser(unittest.TestCase):
     </joint>
     <actuator name="foo_motor">
       <mechanicalReduction>50.0</mechanicalReduction>
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
     </actuator>
   </transmission>
 </robot>'''
